@@ -1,4 +1,16 @@
 #pragma once
+#include <iostream>
+#define print cout
 
-#define g 9.8 
-#define print cout 
+using namespace std;
+
+class Sound {
+private:
+	int Vol;
+public:
+	int TvVol(int t) {
+
+		Vol = t;
+		return Vol;
+	}
+};
